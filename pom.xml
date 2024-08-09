@@ -14,7 +14,7 @@
     <name>spring_study</name>
     <description>spring_study</description>
     <properties>
-        <java.version>8</java.version>
+        <java.version>17</java.version>
         <spring.version>5.3.22</spring.version>
         <spring-jdbc.version>5.3.22</spring-jdbc.version>
     </properties>
@@ -80,6 +80,14 @@
             <version>RELEASE</version>
             <scope>compile</scope>
         </dependency>
+        <dependency>
+            <groupId>org.testng</groupId>
+            <artifactId>testng</artifactId>
+            <version>6.13.1</version> <!-- 选择一个支持 Java 17 的版本 -->
+            <scope>test</scope>
+        </dependency>
+
+
         <!-- https://mvnrepository.com/artifact/javax.servlet/javax.servlet-api -->
         <dependency>
             <groupId>javax.servlet</groupId>
@@ -98,6 +106,7 @@
             <plugin>
                 <groupId>org.apache.maven.plugins</groupId>
                 <artifactId>maven-surefire-plugin</artifactId>
+                <version>3.2.5</version>
                 <configuration>
                     <includes>
                         <include>**/*Test.java</include>
