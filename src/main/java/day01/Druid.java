@@ -2,6 +2,8 @@ package day01;
 
 import org.testng.annotations.Test;
 
+import javax.servlet.Servlet;
+
 /**
  * @program: spring_study
  * @ClassName: Druid
@@ -11,6 +13,6 @@ import org.testng.annotations.Test;
 public class Druid {
     @Test
     public void testDruid(){
-
+        Servlet servlet = null;
     }
 }

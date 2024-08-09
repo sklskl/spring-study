@@ -5,6 +5,8 @@ import lombok.AllArgsConstructor;
 import lombok.Data;
 import lombok.NoArgsConstructor;
 
+import javax.servlet.Servlet;
+
 /**
  * @program: spring_study
  * @ClassName: User
@@ -20,6 +22,8 @@ public class User {
     private String pwd;
     public void sayHello(){
         DruidDataSource druidDataSource = new DruidDataSource();
+        Servlet servlet = null;
+
     }
 
 }
