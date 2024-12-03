@@ -37,7 +37,7 @@ public class Employee {
     }
 
 
-    Employee e1= new Employee("aaa",2000,new Date(1999,10,1));
-    Employee e2 = new Employee("bbb",3000,new Date(1999,10,2));
-    swap(e1,e2);
+//    Employee e1= new Employee("aaa",2000,new Date(1999,10,1));
+//    Employee e2 = new Employee("bbb",3000,new Date(1999,10,2));
+//    swap(e1,e2);
 }
